@@ -1,0 +1,16 @@
+# Ignorer les données lourdes
+data/raw/*
+data/processed/*
+
+# Ignorer les fichiers Python temporaires
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorer les checkpoints Jupyter
+.ipynb_checkpoints/
+
+# Ignorer les environnements virtuels
+venv/
+.env
